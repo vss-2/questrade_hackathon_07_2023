@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@500&family=Roboto&family=Grand+Hotel&display=swap');
+
+#html, #body {
+    margin-bottom: 0px;
+}
+
+.cta_text_green {
+    color: #034513;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cta_text_black {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.text_black {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    margin-right: 2vw;
+    font-weight: 100;
+}
+
+.rect_action_button {
+    color: #ffffff;
+    border-radius: 128px;
+    font-family: 'Lato', sans-serif;
+    background-color: #034513;
+    border-style: none;
+    cursor: pointer;
+    min-width: 10vw;
+    min-height: 6vh;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4vw;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3vw;
+}
+
+.round_logo {
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+.call_to_action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.convicing_info {
+    background-color: #034513;
+    min-width: 100%;
+    min-height: 18vh;
+    width: 101.5%;
+    margin-left: -1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon_information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-block-end: 0px;
+    color: #D9D9D9;
+}
+
+.side_text_image {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    justify-content: center;
+}
+
+.outline_button {
+    border-radius: 64px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: #034513;
+    color: #ffffff;
+    font-size: 18px;
+    border-width: 3px;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    max-width: 138px;
+    height: 7.5vh;
+    cursor: pointer;
+    border: none;
+}
+
+.buy_icon {
+    margin-left: 1.5vh;
+    cursor: pointer;
+}
+
+.app_preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.footer {
+    background-color: #000000;
+    min-width: 100%;
+    min-height: 15vh;
+    width: 101.5%;
+    margin-left: -1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div_banner {
+    display: flex;
+    justify-self: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: center;
+}
+
+.img_banner {
+    align-items: center;
+    border-radius: 64px;
+    max-height: 50vh;
+    max-width: 50vw;
+}
+
+.customer_comment {
+    background: #034513;
+    margin-top: 8vh;
+    max-width: 20vw;
+    border-radius: 8px;
+    text-align: right;
+    color: #ffffff
+}
+
+.footer_text {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.footer_text_row {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.company_grey {
+    font-family: 'Lato', sans-serif;
+    color: grey;
+}
+
+.customer_comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.comment_text {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-block-end: 0px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.text_logo {
+    font-family: 'Grand Hotel', sans-serif;
+    color: #034513;
+    font-size: 50px;
+}
