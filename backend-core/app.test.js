@@ -34,7 +34,8 @@ describe('Request lists of loans', () => {
 			.then((e) => {
 				expect(e.status).toBe(200);
 				expect(typeof e.body).toBe('object');
-				expect(e.body[0].AccountID).toBe(0);
+				expect(e.body.length).toBe(3); 
+				// Three loans are create in SQL init
 			});
 	});
 
