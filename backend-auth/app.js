@@ -5,7 +5,6 @@ import sql from './sql';
 import redis from './redis';
 const express = require('express');
 const app = express();
-const jwt = require('jsonwebtoken');
 const auth = require('./middleware/auth.js');
 
 const msgs = {
@@ -23,7 +22,7 @@ async function errorLogger(log){
 		user: log.user,
 		error: log.error
 	});
-}
+};
 
 app.post('/register', async (req, res) => {
 	try {
@@ -73,6 +72,8 @@ app.post('/login', async (req, res) => {
 			where email = ${email}
 		`.then((user) => {
 				if (user.length == 1 && salt_pass(password) == user[0]['password']) {
+					let token_access = uuidv4();
+
 					// Users exists and password matches: 
 					// generate token, save in temporary DB and return token to frontend
 					await Promise.all([
@@ -81,6 +82,7 @@ app.post('/login', async (req, res) => {
 					]).then(
 						res.status(201).json(token_access);
 					);
+
 				}
 			});
 		} catch (e) {
@@ -97,6 +99,8 @@ app.post('/logout', auth, async (req, res) => {
 	if(client.get(req.email+':token', token)){
 		client.set(req.email+':token', '');
 	}
-})
+});
+
+app.post('/verify', auth, async (req, res) => ());
 
 module.exports.app = app;
