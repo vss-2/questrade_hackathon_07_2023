@@ -17,8 +17,8 @@
 ![System Architecture](https://github.com/vss-2/questrade_hackathon_07_2023/blob/master/Architecture.drawio.svg)
 
 ## Business Process Management Notation
-Some use cases scenarios, classes diagrams and business processes diagrams.
-![Diagram with various diagrams](https://github.com/vss-2/questrade_hackathon_07_2023/blob/master/BMPN.drawio.svg)
+Some use cases scenarios, classes diagrams and business processes diagrams. To see the image bigger: Right-click in the image with your mouse then hit "Open image in new tab".
+![Diagram with various diagrams](https://github.com/vss-2/questrade_hackathon_07_2023/blob/master/BPMN.drawio.svg)
 
 ## License
 ### [Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
