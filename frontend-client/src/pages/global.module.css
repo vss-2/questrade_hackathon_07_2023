@@ -214,3 +214,9 @@
     text-align: center;
     border-color: #034513;
 }
+
+.h3_no_decoration {
+    text-decoration-style: none;
+    color: #D9D9D9;
+    text-align: center;
+}

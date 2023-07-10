@@ -19,7 +19,7 @@ export default function Login() {
 					<><br></br></>
 					&nbsp;&nbsp;&nbsp;
 					
-					<Link to={'/list/loan'}>
+					<Link to={'/my_loans'}>
 						<button className={styles.rect_action_button}>Log In</button>
 					</Link>
 				</form>
