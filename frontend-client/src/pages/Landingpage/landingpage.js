@@ -1,6 +1,7 @@
 import styles from '../global.module.css';
 import logo from '../../assets/Logo.png';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const OPEN_MAP_WIDGET="https://www.openstreetmap.org/export/embed.html?bbox=-79.44913387298584%2C43.843039262967345%2C-79.40124034881593%2C43.862133755111394&amp;layer=mapnik";
 
@@ -15,7 +16,11 @@ export default function LandingPage() {
             <a href='/' className={styles.cta_text_black}>Mortgages</a>
             <a href='/' className={styles.cta_text_black}>About us</a>
           </div>
-          <button className={styles.rect_action_button}>Login</button>
+          <Link to={'/login'}>
+            <button className={styles.rect_action_button}>
+              Login
+            </button>
+          </Link>
         </div>
         <div className={styles.call_to_action}>
           <div>

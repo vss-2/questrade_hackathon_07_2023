@@ -202,3 +202,15 @@
     color: #034513;
     font-size: 50px;
 }
+
+.center_modal {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.input_login {
+    border-style: none;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #034513;
+}
